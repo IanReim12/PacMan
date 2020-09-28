@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Main">
+      <UniqueIdentifier>{16d81be7-973b-4e8e-bb77-92f4ca60386b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameWork">
+      <UniqueIdentifier>{c2badce3-bae6-4e32-bce2-8bbe442311b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Functions">
+      <UniqueIdentifier>{109fd15a-2f53-41d9-8cdb-616854dbe4e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameWork\Engine">
+      <UniqueIdentifier>{f6dbb5bc-573e-412f-b8b3-c0d84cad22f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Functions\Rendering">
+      <UniqueIdentifier>{46a9b52c-0f27-4ec8-9c60-bd53ae822100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Functions\Rendering\DrawSprites">
+      <UniqueIdentifier>{be927488-2cac-49ae-a4f6-49f66c30c781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Functions\Rendering\Renderer">
+      <UniqueIdentifier>{eef4897b-5972-4a7d-bb75-6e6e8ad665a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DrawableClasses">
+      <UniqueIdentifier>{38de893f-cd69-4c01-8c46-0018fda1e46f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DrawableClasses\Maze">
+      <UniqueIdentifier>{128c1ee2-10f9-400f-922b-1610597d3fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DrawableClasses\Entities">
+      <UniqueIdentifier>{9f705a39-f21a-4d64-9a5d-07aff1d6c5ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DrawableClasses\Entities\Ghosts">
+      <UniqueIdentifier>{74783431-7992-4d99-a937-35790cc42062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DrawableClasses\Entities\PacMen">
+      <UniqueIdentifier>{cc19f2f2-83ae-438b-8e09-a97c3e415a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DrawableClasses\Entities\Ghosts\Clyde">
+      <UniqueIdentifier>{0749093d-f985-46f3-84d0-270138f21d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DrawableClasses\Entities\Ghosts\Inky">
+      <UniqueIdentifier>{f2fb1d77-6479-40ae-a445-4b5157f675a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DrawableClasses\Entities\Ghosts\Blinky">
+      <UniqueIdentifier>{a727650d-feab-4ab6-a7b0-18ca7fb92c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DrawableClasses\Entities\Ghosts\Pinky">
+      <UniqueIdentifier>{ca1abf99-b14a-4799-9bdc-db1b4745edf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Enumerations">
+      <UniqueIdentifier>{6ae2beab-1459-4f34-bab2-0a46ddbf130e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Enumerations\Directions">
+      <UniqueIdentifier>{dfa64cab-387b-4680-9fd5-d581be535ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FrameWork\DirectionLoader">
+      <UniqueIdentifier>{072c1e14-6f9a-46fb-8d1d-b1c81619ebd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Resource Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="drawSprites.cpp">
+      <Filter>Resource Files\Functions\Rendering\DrawSprites</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Resource Files\Functions\Rendering\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Resource Files\FrameWork\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Maze.cpp">
+      <Filter>Resource Files\DrawableClasses\Maze</Filter>
+    </ClCompile>
+    <ClCompile Include="PacMen.cpp">
+      <Filter>Resource Files\DrawableClasses\Entities\PacMen</Filter>
+    </ClCompile>
+    <ClCompile Include="Clyde.cpp">
+      <Filter>Resource Files\DrawableClasses\Entities\Ghosts\Clyde</Filter>
+    </ClCompile>
+    <ClCompile Include="Inky.cpp">
+      <Filter>Resource Files\DrawableClasses\Entities\Ghosts\Inky</Filter>
+    </ClCompile>
+    <ClCompile Include="Blinky.cpp">
+      <Filter>Resource Files\DrawableClasses\Entities\Ghosts\Blinky</Filter>
+    </ClCompile>
+    <ClCompile Include="Pinky.cpp">
+      <Filter>Resource Files\DrawableClasses\Entities\Ghosts\Pinky</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionLoader.cpp">
+      <Filter>Resource Files\FrameWork\DirectionLoader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="drawSprites.h">
+      <Filter>Resource Files\Functions\Rendering\DrawSprites</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Resource Files\FrameWork\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Resource Files\Functions\Rendering\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Maze.h">
+      <Filter>Resource Files\DrawableClasses\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="PacMen.h">
+      <Filter>Resource Files\DrawableClasses\Entities\PacMen</Filter>
+    </ClInclude>
+    <ClInclude Include="Clyde.h">
+      <Filter>Resource Files\DrawableClasses\Entities\Ghosts\Clyde</Filter>
+    </ClInclude>
+    <ClInclude Include="Inky.h">
+      <Filter>Resource Files\DrawableClasses\Entities\Ghosts\Inky</Filter>
+    </ClInclude>
+    <ClInclude Include="Blinky.h">
+      <Filter>Resource Files\DrawableClasses\Entities\Ghosts\Blinky</Filter>
+    </ClInclude>
+    <ClInclude Include="Pinky.h">
+      <Filter>Resource Files\DrawableClasses\Entities\Ghosts\Pinky</Filter>
+    </ClInclude>
+    <ClInclude Include="Directions.h">
+      <Filter>Resource Files\Enumerations\Directions</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionLoader.h">
+      <Filter>Resource Files\FrameWork\DirectionLoader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
