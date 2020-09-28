@@ -1,7 +1,7 @@
 #pragma once
 //Class for the Drawable PacMan player sprite, called PacMen because no choice
 //includes:
-#include "direction.h"
+#include "directions.h"
 #include "SFML/Graphics.hpp"
 #include <queue>
 class PacMen
